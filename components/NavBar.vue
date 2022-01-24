@@ -1,0 +1,55 @@
+<template>
+  <nav class="bg-gray-200 md:px-56 md:py-1.5 md:grid grid-cols-2 items-center">
+    <nuxt-link class="font-bold text-3xl hover:text-yellow-400" to="/"
+      >Brand Logo</nuxt-link
+    >
+    <div class="md:flex md:justify-between capitalize">
+      <nuxt-link
+        class="
+          transition
+          ease-in-out
+          duration-200
+          text-lg
+          font-semibold
+          hover:text-yellow-400 hover:underline
+        "
+        v-for="link in links"
+        :to="{ name: link.link }"
+        :key="link.id"
+      >
+        {{ link.name }}</nuxt-link
+      >
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      links: [
+        {
+          name: 'about',
+          link: 'about',
+        },
+        {
+          name: 'players',
+          link: 'players',
+        },
+        {
+          name: 'results',
+          link: 'results',
+        },
+        {
+          name: 'community',
+          link: 'community',
+        },
+        {
+          name: 'shop',
+          link: 'shop',
+        },
+      ],
+    }
+  },
+}
+</script>
