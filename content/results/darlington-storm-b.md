@@ -1,6 +1,7 @@
 ---
-title: darlington storm b
+title: Golden Smog Warriors vs darlington storm b
 date: 2021-12-04T14:00:00
+league: durham
 ---
 
 Final score: 71 -36

@@ -1,6 +1,7 @@
 ---
 title: Golden Smog Warriors vs Teesside lions Rec
 date: 2021-11-12T14:00:00
+league: tribal
 ---
 
 Think we lost by 12

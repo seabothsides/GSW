@@ -1,6 +1,7 @@
 ---
 title: Golden Smog Warriors vs Hartlepool Heat B
 date: 2021-11-25T14:00:00
+league: durham
 ---
 
 62-31 final score

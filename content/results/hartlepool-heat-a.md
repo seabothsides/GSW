@@ -1,6 +1,7 @@
 ---
 title: Golden Smog Warriors vs Hartepool Heat A
 date: 2021-12-06T14:00:00
+league: durham
 ---
 
 Round 1 of the Durham League County Cup.

@@ -1,6 +1,7 @@
 ---
 title: Golden Smog Warriors Vs Teesside Warriors
 date: 2021-10-29T14:00:00
+league: tribal
 ---
 
 Golden Smog Warriors - 33

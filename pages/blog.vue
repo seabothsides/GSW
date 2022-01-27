@@ -1,16 +1,16 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const community = await $content('community').fetch()
+    const blog = await $content('blog').fetch()
 
-    return { community }
+    return { blog }
   },
 }
 </script>
 
 <template>
   <div>
-    <h2>Our community section</h2>
+    <h2>Our blog page</h2>
     <nuxt-child />
   </div>
 </template>

@@ -12,6 +12,7 @@
           text-lg
           font-semibold
           hover:text-yellow-400 hover:underline
+          capitalize
         "
         v-for="link in links"
         :to="{ name: link.link }"
@@ -21,7 +22,6 @@
       >
     </nav>
     <nuxt-child />
-    <p>{{ results }}</p>
   </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
       links: [
         {
           name: 'fixtures',
-          link: 'results-fixtures',
+          link: 'results',
         },
         {
           name: 'Durham',
@@ -48,12 +48,6 @@ export default {
         },
       ],
     }
-  },
-
-  async asyncData({ $content }) {
-    const results = await $content('results').fetch()
-
-    return { results }
   },
 }
 </script>

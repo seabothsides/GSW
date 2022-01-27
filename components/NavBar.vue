@@ -48,6 +48,10 @@ export default {
           name: 'shop',
           link: 'shop',
         },
+        {
+          name: 'blog',
+          link: 'blog',
+        },
       ],
     }
   },
