@@ -1,6 +1,6 @@
 ---
 title: going climbing
-description:
+description: One of the good things about being the country’s only micropub team is that we meet some class people while we’re having our post-match pints in the Smog.
 date: 2021-11-24T12:00:00
 ---
 
