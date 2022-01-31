@@ -7,7 +7,7 @@
     >
       <nuxt-link
         :to="{ name: 'community-slug', params: { slug: articles.slug } }"
-        class="font-semibold hover:underline"
+        class="font-semibold capitalize hover:underline hover:text-yellow-400"
       >
         {{ articles.title }}
       </nuxt-link>

@@ -13,11 +13,13 @@
       items-center
     "
   >
-    <nuxt-link
-      class="font-bold text-2xl md:text-3xl hover:text-yellow-400"
-      to="/"
-      >Brand Logo</nuxt-link
-    >
+    <p>
+      <nuxt-link
+        class="font-bold text-2xl md:text-3xl hover:text-yellow-400"
+        to="/"
+        >Brand Logo</nuxt-link
+      >
+    </p>
     <div class="flex space-x-1 md:space-x-3 lg:space-x-7 capitalize">
       <nuxt-link
         class="

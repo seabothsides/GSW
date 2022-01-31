@@ -4,7 +4,12 @@
     <div v-for="result in results" :key="result.id" class="py-3">
       <nuxt-link
         :to="{ name: 'results-slug', params: { slug: result.slug } }"
-        class="font-semibold hover:underline capitalize text-lg"
+        class="
+          font-semibold
+          hover:underline hover:text-yellow-400
+          capitalize
+          text-lg
+        "
       >
         {{ result.title }}
       </nuxt-link>
