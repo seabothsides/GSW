@@ -15,8 +15,15 @@
         "
       >
         <p class="capitalize font-semibold">
-          Golden Smog vs {{ game.opponent }}
+          <nuxt-link
+            v-if="game.slug"
+            :to="{ name: 'results-slug', params: { slug: game.slug } }"
+            class="hover:text-yellow-400 hover:underline"
+          >
+            Golden Smog vs {{ game.opponent }}
+          </nuxt-link>
         </p>
+        <p v-if="!game.slug">Golden Smog vs {{ game.opponent }}</p>
         <p>{{ game.league }}</p>
         <p>{{ formatDate(game.date) }}</p>
       </div>
