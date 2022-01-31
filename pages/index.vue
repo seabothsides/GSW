@@ -9,8 +9,6 @@
         component what the hell, new content, okay this is fine and quick now
       </li>
     </ul>
-    <p class="py-12">{{ fixtures.fixtures }}</p>
-    <nuxt-content :document="fixtures" class="pt-4" />
   </div>
 </template>
 
