@@ -1,6 +1,18 @@
 <template>
   <div class="">
-    <h1 class="text-center text-red-300 font-bold text-2xl">
+    <h1
+      class="
+        capitalize
+        pb-2
+        text-4xl
+        font-bold
+        italic
+        bg-clip-text bg-gradient-to-br
+        from-yellow-400
+        to-pink-400
+        text-transparent
+      "
+    >
       This is the results page
     </h1>
     <nav class="flex justify-around">
