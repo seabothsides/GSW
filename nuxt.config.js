@@ -5,6 +5,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'goldensmog',
+    titleTemplate: '%s | Golden Smog Warriors Basketball',
     meta: [{
         charset: 'utf-8'
       },

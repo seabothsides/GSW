@@ -1,9 +1,21 @@
 <template>
-  <div>
+  <div class="mb-2">
     <p class="text-xl font-bold my-2 capitalize">
       {{ article.title }}
     </p>
     <nuxt-content :document="article" />
+    <button
+      class="
+        hover:bg-yellow-400 hover:text-white
+        p-1
+        mt-2
+        rounded-lg
+        capitalize
+        font-bold
+      "
+    >
+      <nuxt-link :to="{ name: 'blog' }"> back to articles </nuxt-link>
+    </button>
   </div>
 </template>
 
