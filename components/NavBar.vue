@@ -62,6 +62,7 @@
       class="
         grid grid-auto-row
         hidden
+        sm:hidden
         absolute
         bg-gray-500
         capitalize

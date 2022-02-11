@@ -1,6 +1,7 @@
 ---
 title: joining the durham league
 description: A year ago some amazing Smoggies formed a pub basketball team - Golden Smog Warriors Basketball
+img: null
 date: 2021-09-24T12:00:00
 ---
 

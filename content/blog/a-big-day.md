@@ -1,6 +1,7 @@
 ---
 title: a big day
 description: Six weeks ago we heard about a campaign to raise funds for a memorial to remember local men that volunteered to fight fascism in the Spanish Civil War between 1936-1939.
+img: https://static.wixstatic.com/media/12801e_b7b090452c81479f966b890ce4282607~mv2.jpg/v1/fill/w_960,h_960,al_c,q_90/12801e_b7b090452c81479f966b890ce4282607~mv2.webp
 date: 2021-7-29T12:00:00
 ---
 
