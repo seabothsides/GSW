@@ -1,11 +1,5 @@
 <script>
-export default {
-  async asyncData({ $content }) {
-    const blog = await $content('blog').fetch()
-
-    return { blog }
-  },
-}
+export default {}
 </script>
 
 <template>

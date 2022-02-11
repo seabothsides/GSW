@@ -1,11 +1,12 @@
 <template>
-  <div class="grid grid-flow-row gap-3">
+  <div class="grid grid-flow-row grid-rows gap-3">
     <div
       v-for="(article, index) in articles"
       :key="index"
       class="
         grid
         auto-rows-min
+        md:auto-rows-min
         grid-flow-row-dense
         border
         rounded-lg
@@ -18,23 +19,28 @@
         class="
           p-2
           font-semibold
+          text-lg
           capitalize
           hover:underline hover:text-yellow-400
         "
       >
         {{ article.title }}
       </nuxt-link>
-      <p class="p-2 row-start-2 font-light">
+      <p class="p-2 sm:row-start-2 font-light italic">
         {{ article.description }}
       </p>
       <img
+        v-if="article.img"
         class="
-          object-scale-down
           rounded-lg
-          w-full
-          h-full
-          col-start-2
-          row-span-2
+          w-auto
+          md:w-4/5
+          lg:w-5/6
+          md:justify-self-end
+          h-min
+          object-cover
+          order-first
+          sm:order-none sm:w-auto sm:col-start-2 sm:row-span-3
         "
         :src="article.img"
         alt=""
