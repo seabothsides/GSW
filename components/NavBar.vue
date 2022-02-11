@@ -22,6 +22,7 @@
         <nuxt-link
           class="font-bold text-2xl md:text-3xl hover:text-yellow-400"
           to="/"
+          @click.native="close"
           >Brand Logo</nuxt-link
         >
       </p>
@@ -132,6 +133,11 @@ export default {
       var element = document.getElementById('nav-draw')
 
       element.classList.toggle('hidden')
+    },
+    close() {
+      var element = document.getElementById('nav-draw')
+
+      element.classList.add('hidden')
     },
   },
 }
