@@ -4,7 +4,10 @@ description: Six weeks ago we heard about a campaign to raise funds for a memori
 date: 2021-7-29T12:00:00
 ---
 
+<img class="w-4/5 md:w-3/5 lg:w-2/5 xl:w-3/5 my-5 mx-auto rounded-2xl" src="https://static.wixstatic.com/media/12801e_95dbaba59d7e4ae58ceb66aef1823f85~mv2.jpg/v1/fill/w_1242,h_1369,al_c,q_90/12801e_95dbaba59d7e4ae58ceb66aef1823f85~mv2.webp"/>
+
 Sunday 1st August is a MASSIVE day for everyone at Golden Smog Warriors.
+
 
 Six weeks ago we heard about a campaign to raise funds for a memorial to remember local men that volunteered to fight fascism in the Spanish Civil War between 1936-1939.
 
@@ -43,3 +46,7 @@ From every Golden Smog Warrior, thank you to everyone, in Teesside and all over 
 It’s great to see the Golden Smog Warrior community growing every day with like minded, kind and, let's face it, cool Warriors around the world.
 
 ¡No Pasaran! ✊
+
+<img class="w-4/5 md:w-3/5 lg:w-2/5 xl:w-3/5 my-5 mx-auto rounded-2xl" src="https://static.wixstatic.com/media/12801e_4703a2759eac42b39e88e22878289124~mv2.jpg/v1/fill/w_1242,h_755,al_c,q_90/12801e_4703a2759eac42b39e88e22878289124~mv2.webp"/>
+
+<img class="w-4/5 md:w-3/5 lg:w-2/5 xl:w-3/5 my-5 mx-auto rounded-2xl" src="https://static.wixstatic.com/media/12801e_b7b090452c81479f966b890ce4282607~mv2.jpg/v1/fill/w_960,h_960,al_c,q_90/12801e_b7b090452c81479f966b890ce4282607~mv2.webp"/>

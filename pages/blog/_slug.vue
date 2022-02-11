@@ -28,3 +28,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.nuxt-content {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1.15em;
+}
+</style>
