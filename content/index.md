@@ -1,8 +1,6 @@
 ---
-title: Golden smog warriors
+title: A warm welcome from everyone at The Golden Smog Warriors
 ---
-
-## A warm welcome from everyone at The Golden Smog Warriors
 
 A communi-Team!
 
