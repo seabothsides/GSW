@@ -50,12 +50,11 @@
           v-for="link in links"
           :to="{ name: link.link }"
           :key="link.id"
-          @click="isOpen"
         >
           {{ link.name }}</nuxt-link
         >
       </div>
-      <button @click="isOpen">menu</button>
+      <button id="nav-button" class="sm:hidden" @click="isOpen">menu</button>
     </nav>
     <div
       id="nav-draw"
@@ -65,12 +64,15 @@
         absolute
         bg-gray-500
         capitalize
-        w-full
-        h-full
+        w-screen
+        h-screen
+        gap-10
         place-content-center
         transition-all
         ease-in-out
         duration-200
+        overscroll-none
+        overflow-hidden
       "
     >
       <nuxt-link
@@ -78,13 +80,14 @@
           transition
           ease-in-out
           duration-200
-          text-lg
+          text-4xl
           font-semibold
           hover:text-yellow-400 hover:underline
         "
         v-for="link in links"
         :to="{ name: link.link }"
         :key="link.id"
+        @click.native="isOpen"
       >
         {{ link.name }}</nuxt-link
       >
@@ -127,6 +130,7 @@ export default {
   methods: {
     isOpen() {
       var element = document.getElementById('nav-draw')
+
       element.classList.toggle('hidden')
     },
   },

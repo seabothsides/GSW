@@ -2,6 +2,7 @@
   <div class="">
     <h1
       class="
+        hidden
         capitalize
         pb-2
         text-4xl
@@ -15,7 +16,9 @@
     >
       This is the results page
     </h1>
-    <nav class="flex justify-around">
+    <nav
+      class="flex justify-around my-4 border-r-4 border-l-4 border-yellow-500"
+    >
       <nuxt-link
         class="
           transition
