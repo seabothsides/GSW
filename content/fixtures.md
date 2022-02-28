@@ -16,7 +16,7 @@ fixtures:
     kit: home
   - opponent: hartlepool b
     league: Durham
-    slug: harltepool-heat-b
+    slug: hartlepool-heat-b
     home: true
     date: 2021-11-25T14:00:00
     kit: home
